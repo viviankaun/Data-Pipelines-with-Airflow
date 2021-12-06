@@ -12,14 +12,14 @@
 |----| ------------- |  
 | create_tables.sql  | create tables   | 
 | udac_example_dag.py  | main airflow DAG  |  
-|- plugins\operators | ddd |  
+|- plugins\operators |  |  
 | __init__.py  |  list of Operators     |  
 | data_quality.py  | checking table records   |   
 | load_dimension.py  | insert table from stage table |  
 | load_fact.py  | insert table from stage table |   
 | stage_redshift.py  | get data from s3 to redshift  |   
-|- plugins\helper |ddd|  
-| __init__.py  | dddd  |  
+|- plugins\helper | |  
+| __init__.py  | list of SQL class  |  
 | sql_queries.py  |  SQL statement of insert table   |   
 
 ## COPY Statement from s3 to redshift

@@ -1,5 +1,5 @@
 ## ETL Pipelines with Airflow
-![This is an image](https://github.com/viviankaun/Airflow/blob/main/project/img/GraphView01.png)
+![This is an image](https://github.com/viviankaun/Data-Pipelines-with-Airflow/blob/main/img/GraphView01.png)
 
 ## Dataset 
 - Log data:  s3://udacity-dend/log_data/ 

@@ -41,7 +41,9 @@ s3_key = "log-data/{execution_date.year}/{execution_date.month:02d}",
 - Operator.py
 template_fields = ("s3_key",)
 
+...
 rendered_key = self.s3_key.format(**context)
+
 s3_path = "s3://{}/{}".format(self.s3_bucket, rendered_key)
 
  
